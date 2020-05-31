@@ -1,0 +1,158 @@
+.tel_link {
+    width: 100%;
+    margin-top: 5px;
+}
+.bg_section {
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-image: url(../images/bg-2.jpg);
+    background-size: cover;
+}
+.orange_text {
+    margin: 8px;
+    text-align: center;
+}
+.orange_text > span {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FF8C00;
+    color: #FFFFFF;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 25px;
+    font-family: inherit;
+    vertical-align: baseline;
+    padding : 4px;
+}
+
+.blue_cart {
+    border: white solid 1px;
+    background-color: rgba(42, 168, 229, 0.7);
+    color: white
+}
+
+.img-thumbnail {
+    background-color: rgba(42, 168, 229, 0); ;
+}
+
+.orange_button,
+.orange_button:hover,
+.orange_button:focus,
+.orange_button:active,
+.orange_button.disabled, .orange_button:disabled,
+.orange_button:not(:disabled):not(.disabled):active, .orange_button:not(:disabled):not(.disabled).active,
+.show > .orange_button.dropdown-toggle,
+.orange_button:not(:disabled):not(.disabled):active:focus, .orange_button:not(:disabled):not(.disabled).active:focus,
+.show > .orange_button.dropdown-toggle:focus
+{
+    background-color:#ff771f;
+    color: white;
+    border: none;
+}
+
+.blue_button,
+.blue_button:hover,
+.blue_button:focus,
+.blue_button:active,
+.blue_button.disabled, .blue_button:disabled,
+.blue_button:not(:disabled):not(.disabled):active, .blue_button:not(:disabled):not(.disabled).active,
+.show > .blue_button.dropdown-toggle,
+.blue_button:not(:disabled):not(.disabled):active:focus, .blue_button:not(:disabled):not(.disabled).active:focus,
+.show > .blue_button.dropdown-toggle:focus
+{
+    background-color:#2aa8e5;
+    color: white;
+    border: none;
+}
+
+.bloe_text{
+    background-color: #2aa8e5;
+    color: white;
+    padding: 4px;
+    margin: 5px;
+}
+
+.center_text{
+    text-align: center;
+}
+
+.image_center {
+    display: table;
+    margin: 0 auto;
+}
+
+.bloe_section {
+    background-color: #2aa8e5;
+    color: white;
+}
+
+.white_cart {
+    border: #2aa8e5 solid 1px;
+    background-color: rgba(42, 168, 229, 0.0);
+}
+.bg2_section {
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-image: url(../images/cheliki.jpg);
+    background-size: cover;
+}
+.coment_image{
+    border: solid 1px black;
+    width: 100%;
+    padding: 0;
+    border-radius: 0;
+}
+
+.logos.is-animating {
+    -webkit-animation: logos-outer 3000ms infinite;
+    animation: logos-outer 3000ms infinite;
+}
+
+.logos {
+    z-index: 2!important;
+    position: fixed;
+    overflow: hidden;
+    z-index: 999999;
+    display: block;
+    margin: 0;
+    right: 40px;
+    bottom: 70px;
+    width: 60px;
+    text-align: center;
+    height: 60px;
+    font-size: 30px;
+    border-radius: 50px;
+    box-shadow: 0 0 0 0em rgba(52, 152, 219, 0), 0em 0.05em 0.1em rgba(0, 0, 0, 0.2);
+    -webkit-transform: translate3d(0, 0, 0) scale(1);
+    transform: translate3d(0, 0, 0) scale(1);
+    line-height: 58px;
+}
+a, button, input {
+    transition: all 0.2s ease;
+}
+.phone {
+    background: #FF8C00;
+    color: #fff!important;
+}
+.phone i {
+    transform: rotate(96deg);
+}
+.fa-phone {
+    transform: rotate(95deg);
+}
+
+.container{
+    max-width: 540px;
+}
+
+.blue_text {
+    margin: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #17a5ed;
+    color: #FFFFFF;
+    font-weight: inherit;
+    font-style: inherit;
+    font-family: inherit;
+    vertical-align: baseline;
+}

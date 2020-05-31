@@ -1,0 +1,916 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}OK!{% endblock %}
+
+{% block body %}
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="name"
+                                   placeholder="Как вас зовут?" name="name">
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" class="form-control" name="phone"
+                                   placeholder="Введите ваш номер*">
+                        </div>
+
+                        <button type="submit" class="btn btn-primary tel_link orange_button">Хочу выгодную
+                            цену!</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <a href="tel: +380687450519" class="logos phone is-animating">
+        <i class="fa fa-phone"></i>
+    </a>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <img src="./images/photo_2020-05-26_17-40-16.png" alt="" class="img-thumbnail" style="border: none;">
+            </div>
+            <div class="col-8">
+                <a href="tel: +380687450519" target="_self" data-label="068 745 05 19">
+                    <span class="btn btn-primary tel_link blue_button">068 745 05 19</span></a>
+                <button data-toggle="modal" data-target="#exampleModal" type="button" class="tel_link btn btn-warning orange_button">Бесплатный звонок!</button>
+            </div>
+        </div>
+    </div>
+
+    <section class="bg_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p class="orange_text">
+                        <span> Пластиковые окна </span>
+                    </p>
+                    <p class="orange_text">
+                        <span> От Завода. Гарантия 5 лет </span>
+                    </p>
+                    <p class="orange_text">
+                        <span> Монтаж окна за 1 час! </span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="card blue_cart">
+                        <div class="card-body">
+                            <h5 class="card-title">Скидка на карантин до -20%!</h5>
+                            <p class="card-text">Сидите дома? Оставьте заявку</p>
+                            <p class="card-text">и получите скидку до -20% от Завода!</p>
+                            <p class="card-text">Скидка действует до 12.06. Успейте!</p>
+
+                            <form>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" name="name"
+                                           placeholder="Как вас зовут?" name="name">
+                                </div>
+                                <div class="form-group">
+                                    <input type="tel" class="form-control" name="phone"
+                                           placeholder="Введите ваш номер*">
+                                </div>
+
+                                <button type="submit" class="btn btn-primary tel_link orange_button">Хочу выгодную
+                                    цену!</button>
+                            </form>
+                            <p class="cart-text">*Ваши данные не будут переданы 3-им лицам</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-12">
+                    <div class="card blue_cart">
+                        <div class="card-body">
+                            <h5 class="card-title"> Делаем все!</h5>
+                            <p class="card-text">Балконы, лоджии, окна пвх, двери, панорамные, </p>
+                            <p class="card-text">работа под ключ и т.д. Звоните!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-12">
+                    <div class="card blue_cart">
+                        <div class="card-body">
+                            <h5 class="card-title"> Рассрочка 0% до 10 месяцев!</h5>
+                            <p class="card-text">Альфабанк и другие.</p>
+                            <p class="card-text">Платите только за конструкции!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-12">
+                    <div class="card blue_cart">
+                        <div class="card-body">
+                            <h5 class="card-title"> Акционный замер по Одессе!</h5>
+                            <p class="card-text">Бесплатный выезд специалиста, вместо обычной стоимости - 300 грн!
+                                Успейте!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+    </section>
+
+    <div class="container">
+        <div class="row">
+            <br>
+            <div class="col-12">
+                <h5>Мы абсолютно безопасны!</h5>
+                <p>Наши сотрудники используют все необходимые средства защиты, чтобы все проходило максимально
+                    безопасно!
+                    Состояние сотрудников проверяется каждый день, все инструменты стерелизуются.
+                    Ничего не угрожает вашей безопасности!</p>
+                <p>Вызовите специалиста в маске и <b>получите скидку до -20%!</b></p>
+                <button data-toggle="modal" data-target="#exampleModal" type="submit" class="btn btn-primary tel_link orange_button">Хочу специалиста в маске!</button>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-12">
+                <h5>Москитная сетка в подарок!</h5>
+                <img src="./images/moskitka2.jpg" alt="" class="img-thumbnail" style="border: none;">
+                <p>Оставьте заявку прямо сейчас
+                    и гарантированно получите москитную сетку в подарок для вашего нового окна или балкона! </p>
+                <button data-toggle="modal" data-target="#exampleModal" type="submit" class="btn btn-primary tel_link orange_button">Получить подарок!</button>
+            </div>
+        </div>
+        <br>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h3>Почему более 4 000
+                    клиентов выбрали нас?</h3>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-3">
+                <img src="./images/off2.png" alt="" class="img-thumbnail" style="border: none;">
+            </div>
+            <div class="col-8">
+                <h5>Производство 7-12 дней</h5>
+                <p>Быстрое изготовление на современных станках</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-3">
+                <img src="./images/off3.png" alt="" class="img-thumbnail" style="border: none;">
+            </div>
+            <div class="col-8">
+                <h5>Контроль качества</h5>
+                <p>Контролируем качество на каждом
+                    этапе, чтобы вас все устроило</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-3">
+                <img src="./images/off4.png" alt="" class="img-thumbnail" style="border: none;">
+            </div>
+            <div class="col-8">
+                <h5>Высокое качество монтажа</h5>
+                <p>Монтаж - это 50% правильной
+                    работы окон и балконов</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3">
+                <img src="./images/off5.png" alt="" class="img-thumbnail" style="border: none;">
+            </div>
+            <div class="col-8">
+                <h5>Лучший сервис на рынке</h5>
+                <p>Мы лучшие в обслуживании!</p>
+                <p>Не верите? Убедитесь в этом сами!</p>
+            </div>
+        </div>
+        <hr>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h3>Летние цены до -20%!</h3>
+                <p>Окна в квартиры, дома, остекления для балконов и лоджий.
+                    Примеры оконных конструкций и цен.
+                    Все просчитывалось в базовой
+                    комплектации и в профиле Lider.</p>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 center_text">
+                <span class="bloe_text">
+                    Окно 1200х500 мм
+                </span>
+            </div>
+
+            <div class="col-12 center_text">
+                <span>
+                    цена от <b>1500 грн</b>
+                </span>
+            </div>
+            <div class="col-12 center_text">
+                150 грн х 10 месяцев
+            </div>
+            <div class="col-12">
+                <div>
+                    <img src="./images/win1.jpg" alt="" class="img-thumbnail image_center" style="border: none;">
+                </div>
+
+            </div>
+            <div class="col-12">
+                <button data-toggle="modal" data-target="#exampleModal" type="submit" class="btn btn-primary tel_link orange_button">Узнать цену вашего окна!</button>
+            </div>
+        </div>
+        <br>
+
+        <div class="row">
+            <div class="col-12 center_text">
+                <span class="bloe_text">
+                    Окно 1300х1200 мм
+                </span>
+            </div>
+
+            <div class="col-12 center_text">
+                <span>
+                    цена от <b>2900 грн</b>
+                </span>
+            </div>
+            <div class="col-12 center_text">
+                290 грн х 10 месяцев
+            </div>
+            <div class="col-12">
+                <div>
+                    <img src="./images/win2.jpg" alt="" class="img-thumbnail image_center" style="border: none;">
+                </div>
+
+            </div>
+            <div class="col-12">
+                <button data-toggle="modal" data-target="#exampleModal" type="submit" class="btn btn-primary tel_link orange_button">Узнать цену вашего окна!</button>
+            </div>
+        </div>
+        <br>
+
+        <div class="row">
+            <div class="col-12 center_text">
+                <span class="bloe_text">
+                    Трехстворчатое окно 1500х1400 мм
+                </span>
+            </div>
+
+            <div class="col-12 center_text">
+                <span>
+                    цена от <b>4900 грн</b>
+                </span>
+            </div>
+            <div class="col-12 center_text">
+                490 грн х 10 месяцев
+            </div>
+            <div class="col-12">
+                <div>
+                    <img src="./images/win3.jpg" alt="" class="img-thumbnail image_center" style="border: none;">
+                </div>
+
+            </div>
+            <div class="col-12">
+                <button data-toggle="modal" data-target="#exampleModal" type="submit" class="btn btn-primary tel_link orange_button">Узнать цену вашего окна!</button>
+            </div>
+        </div>
+        <br>
+
+        <div class="row">
+            <div class="col-12 center_text">
+                <span class="bloe_text">
+                    Балконный блок 2000х500х1300х1400 мм
+                </span>
+            </div>
+
+            <div class="col-12 center_text">
+                <span>
+                    цена от <b>5900 грн</b>
+                </span>
+            </div>
+            <div class="col-12 center_text">
+                590 грн х 10 месяцев
+            </div>
+            <div class="col-12">
+                <div>
+                    <img src="./images/win4.jpg" alt="" class="img-thumbnail image_center" style="border: none;">
+                </div>
+
+            </div>
+            <div class="col-12">
+                <button data-toggle="modal" data-target="#exampleModal" type="submit" class="btn btn-primary tel_link orange_button">Узнать цену вашего окна!</button>
+            </div>
+        </div>
+        <br>
+
+        <div class="row">
+            <div class="col-12 center_text">
+                <span class="bloe_text">
+                    Лоджия/Балкон 2800х1350 мм
+                </span>
+            </div>
+
+            <div class="col-12 center_text">
+                <span>
+                    цена от <b>7900 грн</b>
+                </span>
+            </div>
+            <div class="col-12 center_text">
+                790 грн х 10 месяцев
+            </div>
+            <div class="col-12">
+                <div>
+                    <img src="./images/win5.jpg" alt="" class="img-thumbnail image_center" style="border: none;">
+                </div>
+
+            </div>
+            <div class="col-12">
+                <button data-toggle="modal" data-target="#exampleModal" type="submit" class="btn btn-primary tel_link orange_button">Узнать цену вашего окна!</button>
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <section class="bloe_section">
+        <div class="container">
+            <br>
+            <div class="row">
+                <div class="col-12">
+                    <h5>Хотите рассчитать стоимость ваших окон за 5 минут?</h5>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-12">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="phone"
+                                   placeholder="Введите ваш номер*">
+                        </div>
+                        <button type="submit" class="btn btn-primary tel_link orange_button">Рассчитать!</button>
+                    </form>
+                    <br>
+                    <p>Перезвоним вам в течении 5 минут</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h3>Профильные системы</h3>
+                <p>Изготавливаем окна только из проверенных и качественных профилей производства Германии и Украины.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <img src="./images/prof/prof1.jpg" alt="" class="img-thumbnail prof_img" style="border: none;">
+            </div>
+            <div class="col-6">
+                <img src="./images/prof/prof2.jpg" alt="" class="img-thumbnail prof_img" style="border: none;">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <p>
+                    WINBAU 5s (Украина)
+                </p>
+            </div>
+            <div class="col-6">
+                <p>
+                    WINBAU 6s (Украина)
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <img src="./images/prof/prof3.jpg" alt="" class="img-thumbnail prof_img" style="border: none;">
+            </div>
+            <div class="col-6">
+                <img src="./images/prof/prof4.jpg" alt="" class="img-thumbnail prof_img" style="border: none;">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <p>
+                    WINBAU 7s (Украина)
+                </p>
+            </div>
+            <div class="col-6">
+                <p>
+                    WINTECH 2D
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <img src="./images/prof/prof5.jpg" alt="" class="img-thumbnail prof_img" style="border: none;">
+            </div>
+            <div class="col-6">
+                <img src="./images/prof/prof6.jpg" alt="" class="img-thumbnail prof_img" style="border: none;">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <p>
+                    GreenTech Euro-Design 60
+                </p>
+            </div>
+            <div class="col-6">
+                <p>
+                    GreenTech Euro-Design 70
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <img src="./images/prof/prof7.jpg" alt="" class="img-thumbnail prof_img" style="border: none;">
+            </div>
+            <div class="col-6">
+                <img src="./images/prof/prof8.jpg" alt="" class="img-thumbnail prof_img" style="border: none;">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <p>
+                    Rehau Synergo
+                </p>
+            </div>
+            <div class="col-6">
+                <p>
+                    WINTECH Streamline 76
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <section class="bg2_section">
+        <div class="container">
+            <br>
+            <div class="row">
+                <div class="col-12">
+                    <p class="orange_text">
+                        <span> Рассрочка 0% </span>
+                    </p>
+                    <p class="orange_text">
+                        <span> до 10 месяцев! </span>
+                    </p>
+                    <p class="orange_text">
+                        <span> Оставляйте заявку сейчас! </span>
+                    </p>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-12">
+                    <div class="card blue_cart">
+                        <div class="card-body">
+                            <h5 class="card-title"> Интересует рассрочка 0%?</h5>
+                            <p class="card-text">Заполните формы и мы ответим на все ваши вопросы! </p>
+                            <form>
+                                <div class="form-group">
+                                    <input type="text" class="form-control"
+                                           placeholder="Как вас зовут?" name="name">
+                                </div>
+                                <div class="form-group">
+                                    <input type="tel" class="form-control"
+                                           placeholder="Введите ваш номер*" name="phone">
+                                </div>
+
+                                <button type="submit" class="btn btn-primary tel_link orange_button">Хочу выгодную
+                                    цену!</button>
+                            </form>
+                            <p class="cart-text">*Ваши данные не будут переданы 3-им лицам</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="card blue_cart">
+                        <div class="card-body">
+                            <h5 class="card-title">Без процентов, без справки о доходах, без залога, не выходя из
+                                квартиры!</h5>
+                            <h5>Наши партнеры: Альфабанк, Приватбанк, Монобанк </h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <br>
+                <h3>Уже был просчет/замер у конкурентов?</h3>
+                <br>
+                <p class="orange_text">
+                    <span>В 80% случаев мы предлагаем лучшие условия, чем конкуренты!</span>
+                </p>
+                <br>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Как вас зовут?" name="name">
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" class="form-control"
+                               placeholder="Введите ваш номер*"
+                               name="phone"
+                        >
+                    </div>
+
+                    <button type="submit" class="btn btn-primary tel_link orange_button">Хочу пересчитать!</button>
+                </form>
+                <br>
+                <p>Заполните форму и мы пересчитаем вашу конструкцию по нашим ценам! </p>
+                <br>
+            </div>
+        </div>
+    </div>
+
+    <section class="bloe_section">
+        <div class="container">
+            <br>
+            <div class="row">
+                <div class="col-12">
+                    <h5>Металлопластиковые окна экономят деньги!</h5>
+                    <br>
+                    <p>Правильные металлопластиковые окна не только придают эстетический вид вашему жилищу, но и
+                        экономят ваши деньги, сохраняют тепло, не впускают жару и создают комфорт!</p>
+                </div>
+            </div>
+            <br>
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="card blue_cart">
+                        <div class="card-body">
+                            <h1 class="card-title"> 2400 грн</h1>
+                            <h4>Будет сэкономлено в Квартире площадью 60 м. кв. (3 окна и балконный блок)</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-12">
+                    <div class="card blue_cart">
+                        <div class="card-body">
+                            <h1 class="card-title"> 4800 грн</h1>
+                            <h4>Будет сэкономлено в Доме площадью 120 м. кв. (10 окон по всему дому)</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-12">
+                    <h5>Как выбрать правильные окна, чтобы сэкономить деньги?</h5>
+                    <br>
+                    <h5>Заполните форму, чтобы получить ответ!</h5>
+                    <br>
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control"
+                                   placeholder="Как вас зовут?" name="name">
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" class="form-control"
+                                   placeholder="Введите ваш номер*" name="phone">
+                        </div>
+
+                        <button type="submit" class="btn btn-primary tel_link orange_button">Хочу выгодную
+                            цену!</button>
+                    </form>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <br>
+                <h2>Отзывы о нас</h2>
+                <p>Отзывы - самое важное для нас.
+                    Наш главный приоритет - качество работы!</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <img src="./images/otz/1.jpg" alt="" class="img-thumbnail coment_image">
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-6">
+                <p><b>Договор #33446</b></p>
+            </div>
+            <div class="col-6">
+                <p style="color: #fe6602;">
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <p><b>Кучеренко Светлана Сергеевна</b></p>
+                <p><b>Адрес:</b> г. Одесса, Одесская область</p>
+                <p>"Окна, изготовленные и установленные этой компанией стоят три года,внешний вид практически не изменился с момента установки. Купили двухкамерный стеклопакет, считается, что он имеет хорошую звукоизоляцию и подходит для нашего климата. В квартире стало теплее,  хорошая шумоизоляция. Открываются стеклопакеты легко, фурнитура работает. Просты в уходе. Откосы решила сделать из пластика,а не из гипрокартона,  вышло дороже, но не надо в последствие красить.
+                    Гарантию дали 10 лет. Цена качеству соответствует полностью. Рекомендую!"</p>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <img src="./images/otz/2.jpg" alt="" class="img-thumbnail coment_image">
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-6">
+                <p><b>Договор #333561</b></p>
+            </div>
+            <div class="col-6">
+                <p style="color: #fe6602;">
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <p><b>Столбина Екатерина Алексеевна</b></p>
+                <p><b>Адрес:</b> г. Авангард, Одесская область</p>
+                <p>"Дважды уже обращались в компанию Окна-ОК. Впервые о ней услышала, когда наша фирма, где я работаю, ставила металлопластиковые окна в своём офисе и именно эта организация была выбрана, и окна у нас в офисе установлены. Я еще тогда обратила внимание на качество окон от этой компании и на ответственность их работников. И когда пришло время менять окна в нашей квартире я без раздумий обратилась к ним же. Это было где-то год назад. Всё сделали замечательно. Окна качественные, тепла в квартире хватает благодаря им, хорошая шумоизоляция. А недавно ребята из этой же компании застеклили нам балкон. Также более чем довольна как работой, так и результатом. Спасибо"</p>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <img src="./images/otz/3.jpg" alt="" class="img-thumbnail coment_image">
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-6">
+                <p><b>Договор #33346</b></p>
+            </div>
+            <div class="col-6">
+                <p style="color: #fe6602;">
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <p><b>Сивонин Алексей Сергеевич</b></p>
+                <p><b>Адрес:</b> г. Сухой Лиман, Одесская область</p>
+                <p>"Прошлой осенью мы решили поменять окна в доме на новые металлопластиковые ПВХ, так как старые уже никуда не годились. Мы попросили своих знакомых, которые уже меняли окна, посоветовать достойную фирму, у нас получился своеобразный опрос, после которого мы обратились в фирму Окна-ОК. Об этом мы не пожалели ни разу. После общения с менеджером Андреем, который нас проконсультировал и помог определиться в выбором, мы купили и установили теплосберегающие металлопластиковые окна. Сразу после обращения в фирму к нам приехал замерщик, после этого наш заказ был быстро выполнен и вскоре нам установили окна. Спасибо за скорость и качество работы!"</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <br>
+                <h4>Хотите оставить отзыв?</h4>
+                <br>
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="form-control"
+                               placeholder="Как вас зовут?" name="name">
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" class="form-control"
+                               placeholder="Введите ваш номер*" name="phone">
+                    </div>
+                    <div class="form-group">
+                        <textarea name="comment" class="form-control" placeholder="Оставьте свой отзыв тут :)*" rows="3"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary tel_link orange_button">Оставить отзыв!</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h4>Производство оконных конструкций на заводе</h4>
+                <p>Автоматизированная производственная линия дает возможность изготавливать до 2000 м. кв. изделий в день!
+                    Постоянный контроль качества, работа с комплектующими высочайшего качества, монтаж специалистами с многолетним стажем позволяет давать гарантию на всю продукцию от 5 лет.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <img src="./images/proiz/proizvodstvo1.jpg" alt="" class="img-thumbnail" style="border: none; width: 100%;">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <img src="./images/proiz/proizvodstvo2.jpg" alt="" class="img-thumbnail" style="border: none; width: 100%;">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <img src="./images/proiz/proizvodstvo3.jpg" alt="" class="img-thumbnail" style="border: none; width: 100%;">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h4>Вы будете в восторге от нашей команды!</h4>
+                <p>Качество работы и обслуживание на высшем уровне - наш главный приоритет.
+                    Каждый член команды Окна-ОК от вашего личного менеджера до монтажника имеет
+                    единственную цель - клиент должен быть в восторге от нашей работы!
+                </p>
+                <br>
+                <h4>Все специалисты в нашей команде проходят обучение и имеют одну единственную задачу - клиент должен быть в восторге от их работы!</h4>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-12">
+                <div class="card blue_cart" style="background-color: #2aa8e5;">
+                    <div class="card-body">
+                        <h5 class="card-title">Хотите бесплатно вызвать специалиста для замера или консультации?</h5>
+                        <form>
+                            <div class="form-group">
+                                <input type="text" class="form-control"
+                                       placeholder="Введите ваш номер*" name="phone">
+                            </div>
+
+                            <button type="submit" class="btn btn-primary tel_link orange_button">Хочу выгодную
+                                цену!</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-12">
+                <h4>Наши партнеры</h4>
+                <p>Известные мировые бренды с именем доверяют нам. Известные украинские производители доверяют нам.
+                    Доверьтесь и вы нам</p>
+                <img src="./images/part/Screenshot.png" alt="" class="img-thumbnail" style="border: none; width: 100%;">
+                <h4>Кредиты и Рассрочки</h4>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-12">
+                <img src="./images/part/alfa.png" alt="" class="img-thumbnail" style="border: none; width: 100%;">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <h4>Хотите бесплатно рассчитать стоимость окна за 5 минут?</h4>
+                <p>Заполните опросник ниже,
+                    чтобы узнать цену</p>
+                <form>
+                    <div class="form-group">
+                        <select class="form-control" name="product">
+                            <option value=""> Какая конструкция вам нужна? </option>
+                            <option value="Окно"> Окно </option>
+                            <option value="Балконный блок"> Балконный блок </option>
+                            <option value="Лоджия"> Лоджия </option>
+                            <option value="Балкон"> Балкон </option>
+                            <option value="Другое"> Другое </option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <select class="form-control" name="place">
+                            <option value=""> Куда? </option>
+                            <option value="Квартира"> Квартира </option>
+                            <option value="Дом"> Дом </option>
+                            <option value="Другое"> Другое </option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <select class="form-control" name="sity">
+                            <option value=""> В какой город? </option>
+                            <option value="Одесса"> Одесса </option>
+                            <option value="Пригород Одессы"> Пригород Одессы </option>
+                            <option value="Одесская область"> Одесская область </option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control"
+                               placeholder="Как вас зовут?" name="name">
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" class="form-control"
+                               placeholder="Введите ваш номер*" name="phone">
+                    </div>
+
+                    <button type="submit" class="btn btn-primary tel_link orange_button">Рассчитать бесплатно!</button>
+                </form>
+                <br>
+                <p><b>+ ПОДАРОК за заполнение опросника!</b></p>
+                <br>
+            </div>
+        </div>
+    </div>
+
+    <section class="bloe_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <img src="./images/photo_2020-05-26_17-40-16.png" alt="" class="img-thumbnail" style="border: none; width: 100%;">
+                </div>
+                <div class="col-6">
+                    <h4>Есть вопросы?</h4>
+                    <p>Нажмите на номер, чтобы позвонить</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <br>
+                    <a href="tel: +380687450519" target="_self" data-label="068 745 05 19">
+                        <span class="btn btn-primary tel_link blue_button" style="border: white 1px solid;">068 745 05 19</span></a>
+                    <br>
+                    <button data-toggle="modal" data-target="#exampleModal" type="button" class="tel_link btn btn-warning orange_button">Бесплатный звонок!</button>
+                    <br>
+                    <h4>Время работы:</h4>
+                    <h4>Пн-Вс 09:00 - 18:00</h4>
+                    <br>
+                    <h4>г. Одесса, ул. Канатная 6</h4>
+                    <p>Все права защищены (с) 2020</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        $(() => {
+            $('form').on('submit', function(e){
+                e.preventDefault();
+                let data = $(this).serializeArray();
+                $.post('/askcoll', data);
+
+                window.location.href = this.location.origin + '/thankyou';
+            });
+        });
+    </script>
+{% endblock %}
